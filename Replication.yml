@@ -15,5 +15,5 @@ spec:
       containers: 
       - name: simple-pod
         image: nginx
-        port:
+        ports:
         - containerPort: 80
