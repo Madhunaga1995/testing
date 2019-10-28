@@ -1,4 +1,4 @@
-apiVersion: api
+apiVersion: v1
 kind: Service
 metadata: 
   name: service
@@ -9,5 +9,5 @@ spec:
   ports:
   - name: http
     port: 80
-    nodeport: 30001
-    protocol: TCP 
+    nodePort: 30001
+    protocol: TCP
